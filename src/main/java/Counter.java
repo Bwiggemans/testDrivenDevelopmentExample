@@ -10,6 +10,10 @@ public class Counter {
         this.add(1);
     }
 
+    public void reset(){
+        this.count = 0;
+    }
+
     public int current(){
         return this.count;
     }
